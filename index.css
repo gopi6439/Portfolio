@@ -200,13 +200,13 @@ nav > ul{
     padding-right: 50px;
     display: flex;
     flex-direction: column;
-    font-size: 30px;
     gap: 70px;
-    color: var(--half-white);
 }
 
 .s2 .right > :last-child {
     line-height: 45px;
+    color: var(--half-white);
+    font-size: 30px;
 }
 
 .s2 .right > :last-child span{
@@ -696,6 +696,247 @@ nav > ul{
 
 /* MEDIA QUERY */
 
+/* LARGE PC */
+@media (min-width:992px) and (max-width:1200px){
+    
+/* SECTION 1 */
+.s1{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;    
+}
+
+.s1 > .left{
+    width: 60%;
+    height: fit-content;
+}
+
+.s1 > .left > :first-child{
+    font-size: 25px;
+}
+
+.s1 > .left > :nth-child(2){
+    font-size: 35px;
+}
+
+.s1 > .left > :nth-child(3){
+    font-size: 20px;
+}
+
+/* RIGHT */
+
+.s1 > .right{
+    width: 35%;
+}
+
+.s1 > .right > :nth-child(1){
+    width: 350px;
+    height: 400px;
+}
+
+
+/* SECTION 2 */
+.s2{
+    margin-top: 50px;
+}
+
+
+.s2 .left{
+    margin-left: -50px;
+}
+
+
+.s2 .right{
+    width: 50%;
+    gap: 40px;
+   
+}
+
+.s2 .right > :last-child {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.s2 .right > :last-child span{
+    font-size: 60px;
+}
+
+/* SECTION3 */
+.s3 .grid{
+    width: 90%;
+}
+
+
+.s3 .grid > :nth-child(1) > h1, .s3 .grid > :nth-child(4) > h1{
+    left: 5%;
+}
+
+
+.s3 .grid > :nth-child(2) > h1,.s3 .grid > :nth-child(5) > h1{
+    left: 35%;
+    
+}
+
+.s3 .grid > :nth-child(3) > h1,.s3 .grid > :nth-child(6) > h1{
+    left: 67%;
+}
+
+
+/* SECTION 6 */
+
+
+.s6 .content{
+    width: 100%;
+}
+
+.s6 .content .p1{
+    gap: 80px;
+    padding: 10px;
+}
+
+
+
+.s6 .content .right{
+    width: 60%;
+}
+
+.s6 .content .right > :first-child{
+    font-size: 25px;
+}
+
+.s6 .content .right p{
+    font-size: 18px;
+}
+
+
+
+
+}
+
+
+/* TAB */
+@media (min-width:772px) and (max-width:991.98px){
+    
+/* SECTION 1 */
+.s1{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;    
+}
+
+.s1 > .left{
+    width: 60%;
+    height: fit-content;
+}
+
+.s1 > .left > :first-child{
+    font-size: 25px;
+}
+
+.s1 > .left > :nth-child(2){
+    font-size: 35px;
+}
+
+.s1 > .left > :nth-child(3){
+    font-size: 20px;
+}
+
+/* RIGHT */
+
+.s1 > .right{
+    width: 35%;
+}
+
+.s1 > .right > :nth-child(1){
+    width: 350px;
+    height: 400px;
+}
+
+
+/* SECTION 2 */
+.s2{
+    margin-top: 50px;
+}
+
+
+.s2 .left{
+    margin-left: -50px;
+}
+
+
+.s2 .right{
+    width: 50%;
+    gap: 40px;
+   
+}
+
+.s2 .right > :last-child {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.s2 .right > :last-child span{
+    font-size: 60px;
+}
+
+/* SECTION3 */
+.s3 .grid{
+    width: 95%;
+}
+
+
+.s3 .grid > :nth-child(1) > h1, .s3 .grid > :nth-child(4) > h1{
+    left: 1%;
+}
+
+
+.s3 .grid > :nth-child(2) > h1,.s3 .grid > :nth-child(5) > h1{
+    left: 35%;
+    
+}
+
+.s3 .grid > :nth-child(3) > h1,.s3 .grid > :nth-child(6) > h1{
+    left: 67%;
+}
+
+
+/* SECTION 6 */
+
+
+.s6 .content{
+    width: 100%;
+}
+
+.s6 .content .p1{
+    gap: 80px;
+    padding: 10px;
+}
+
+
+
+.s6 .content .right{
+    width: 60%;
+}
+
+.s6 .content .right > :first-child{
+    font-size: 25px;
+}
+
+.s6 .content .right p{
+    font-size: 18px;
+}
+
+.s5 .social{
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+
+
+}
+
+/* MOBILE */
 @media (max-width:575.98px){
 
     
@@ -937,3 +1178,254 @@ nav{
 
 
 }
+
+/* MID DEVICE */
+@media (min-width:576px) and (max-width:850.98px){
+
+    
+header{
+    padding: 50px 50px 0;
+}
+
+header > :first-child{
+    font-size: 30px;
+    margin-left: -10px;
+}
+
+header > :last-child{
+    display: none;
+}
+
+nav{
+   display: none;
+}
+
+
+
+/* SECTION 1 */
+.s1{
+    flex-direction: column;
+    gap: 0;
+}
+
+.s1 > .left{
+    width: 100%;
+    height: fit-content;
+    gap: 5px;
+    margin-top: 50px;
+
+}
+
+.s1 > .left > :first-child{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.s1 > .left > :nth-child(2){
+    font-size: 35px;
+}
+
+.s1 > .left > :nth-child(3){
+    font-size: 20px;
+}
+
+.s1 > .left > :last-child{
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+}
+
+.s1 > .left > :last-child > button{
+    font-size: 14px;
+}
+
+/* RIGHT */
+
+.s1 > .right{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.s1 > .right > :nth-child(1){
+    width: 300px;
+    height: 350px;
+}
+
+.s1 > .right > :nth-child(2){
+   display: none;
+}
+
+
+/* SECTION 2 */
+
+.s2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.s2 > :first-child{
+    font-size: 40px;
+}
+
+.s2 > .content{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.s2 .left{
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+
+.s2 .right{
+    width: 92%;
+    font-size: 20px;
+    padding-right: 0px;
+    gap: 30px;
+}
+
+.s2 .right > :last-child {
+    line-height: 27px;
+}
+
+.s2 .right > :last-child span{
+    font-size: 40px;
+}
+
+.s2 .right > :last-child > :nth-child(2){
+    top: 20px;
+    font-size: 30px;
+}
+
+.s2 .right > .name{
+    justify-content: center;
+}
+
+.s2 .right > .name > h3{
+    font-size: 40px;
+    
+}
+
+
+/* SECTION 3 */
+
+
+.s3 .grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+}
+
+.s3 > :first-child{
+    font-size: 40px;
+}
+
+.s3 .grid > :nth-child(1) > h1,.s3 .grid > :nth-child(3) > h1,.s3 .grid > :nth-child(5) > h1{
+    left: 7%;
+}
+
+.s3 .grid > :nth-child(2) > h1, .s3 .grid > :nth-child(4) > h1,.s3 .grid > :nth-child(6) > h1{
+    left: 52%;
+}
+
+
+
+/* SECTION 6 */
+
+.s6{
+    justify-content: center;
+}
+
+.s6 > :first-child{
+    font-size: 40px;
+}
+
+.s6 .content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.s6 .content .p1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 0;
+}
+
+.s6 .content .left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.s6 .content .right{
+    width: 100%;
+    padding-top: 0px;
+    gap: 15px;
+}
+
+.s6 .content .right > :first-child{
+    font-size: 25px;
+    align-self: center;
+}
+
+.s6 .content .right p{
+    font-size: 18px;
+}
+
+.s6 .content a{
+    padding: 7px;
+}
+
+
+
+/* SECTION 4 */
+
+.s4{
+    margin: 80px 0;
+}
+.s4 > :first-child{
+    font-size: 40px;
+}
+
+.s4 .education{
+    width: 100%;
+   flex-direction: column;
+}
+
+
+/* SECTION 5 */
+
+.s5{
+    margin-top: 50px;
+}
+
+.s5 > h1{
+    font-size: 40px;
+}
+
+.s5 .social{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+}
+
+
