@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Train+One&display=swap');
+
 :root{
  --half-white:rgba(255, 255, 255, 0.5);
 }
@@ -235,6 +237,9 @@ nav > ul{
     visibility: hidden;
     animation-iteration-count: infinite;
     animation-duration: 4s;
+    font-family: "Train One", system-ui;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -342,6 +347,11 @@ nav > ul{
     position: relative;
     top: -22px;
     right: -2px;
+}
+.s3 .grid > div h1{
+font-family: "Train One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .s3 .grid > :nth-child(1) > h1, .s3 .grid > :nth-child(4) > h1{
